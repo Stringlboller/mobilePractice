@@ -14,6 +14,9 @@ public class SignUpTest extends BrowserStackBase {
         createAccount.setPhoneField("+5493515602826");
         createAccount.setDateOfBirth("September 22, 1997");
         createAccount.clickNextButton();
+
+        // The asserts not found because we need to switch
+
     }
 
 }
