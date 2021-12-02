@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Twitter Demo Tests - Mobile Sample" parallel="methods">
+
+    <parameter name="suiteOwner" value="leonBoller"/>
+    <parameter name="jenkinsJobName" value="TwitterDemoTest"/>
+    <parameter name="jenkinsJobType" value="mobile"/>
+    <parameter name="jenkinsEnvironments" value="DEMO"/>
+    <parameter name="jenkinsEmail" value="lboller@solvd.com"/>
+
+    <!--<parameter name="jenkinsRegressionPipeline" value="web_regression, full_regression"/>
+    <parameter name="jenkinsPipelineEnvironments" value="DEMO"/>-->
+
+    <parameter name="jenkinsJobExecutionOrder" value="1"/>
+    <parameter name="jenkinsJobExecutionMode" value="continue"/>
+    <parameter name="jenkinsAutoScreenshot" value="true"/>
+
+    <test name="Twitter Demo mobile tests">
+        <classes>
+            <class name="tests.SignUpTest"/>
+        </classes>
+    </test>
+</suite>

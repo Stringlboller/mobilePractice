@@ -29,7 +29,7 @@
         </dependency>
     </dependencies>
 
-   <!-- <profiles>
+    <profiles>
         <profile>
             <id>iOS</id>
             <build>
@@ -37,10 +37,10 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.0.0-M5</version>
+                        <version>3.0.0-M4</version>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>testNGSuites/iOSTestNGSuite.xml</suiteXmlFile>
+                                <suiteXmlFile></suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
@@ -54,16 +54,18 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.0.0-M5</version>
+                        <version>3.0.0-M4</version>
                         <configuration>
+                            <testFailureIgnore>true</testFailureIgnore>
+                            <shutdown>kill</shutdown>
                             <suiteXmlFiles>
-                                <suiteXmlFile>testNGSuites/androidTestNGSuite.xml</suiteXmlFile>
+                                <suiteXmlFile>src/test/resources/testng_suites/android/twitterSuite.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
                 </plugins>
             </build>
         </profile>
-    </profiles>-->
+    </profiles>
 
 </project>

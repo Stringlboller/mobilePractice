@@ -8,12 +8,12 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">tests.SignUpTest</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">51,114</td><td></td><td></td></tr>
+<tr><th colspan="8">Twitter Demo Tests - Mobile Sample</th></tr>
+<tr><td><a href="#t0">Twitter Demo mobile tests</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">53,476</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">tests.SignUpTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.SignUpTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1638390147172</td><td rowspan="1">51100</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">tests.SignUpTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1638390198280</td><td rowspan="1">-1638390198280</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">tests.SignUpTest</td><td><a href="#m2">CreateAccountTest</a></td><td rowspan="1">1638390198279</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Twitter Demo Tests - Mobile Sample</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Twitter Demo mobile tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.SignUpTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1638456885203</td><td rowspan="1">53458</td></tr><tr><th colspan="4">Twitter Demo mobile tests &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">tests.SignUpTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1638456938670</td><td rowspan="1">-1638456938670</td></tr><tr><th colspan="4">Twitter Demo mobile tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">tests.SignUpTest</td><td><a href="#m2">CreateAccountTest</a></td><td rowspan="1">1638456938669</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">tests.SignUpTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy6.proxyClassLookup()
+<h2>Twitter Demo mobile tests</h2><h3 id="m0">tests.SignUpTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy6.proxyClassLookup()
 	at io.appium.java_client.pagefactory.bys.builder.AppiumByBuilder.prepareAnnotationMethods(AppiumByBuilder.java:85)
 	at io.appium.java_client.pagefactory.bys.builder.AppiumByBuilder.getFilledValue(AppiumByBuilder.java:92)
 	at io.appium.java_client.pagefactory.bys.builder.AppiumByBuilder.createBy(AppiumByBuilder.java:148)
@@ -30,12 +30,14 @@
 	at pages.BasePage.&lt;init&gt;(BasePage.java:18)
 	at pages.MainWelcomePage.&lt;init&gt;(MainWelcomePage.java:11)
 	at base.BrowserStackBase.setUp(BrowserStackBase.java:37)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
 Caused by: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy6.proxyClassLookup()
 	at java.base/java.lang.Class.getMethod(Class.java:2227)
 	at io.appium.java_client.pagefactory.bys.builder.AppiumByBuilder.prepareAnnotationMethods(AppiumByBuilder.java:83)
-	... 50 more
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	... 28 more
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">tests.SignUpTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">tests.SignUpTest#CreateAccountTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy6.proxyClassLookup()
 	at io.appium.java_client.pagefactory.bys.builder.AppiumByBuilder.prepareAnnotationMethods(AppiumByBuilder.java:85)
@@ -54,11 +56,13 @@ Caused by: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy6.proxyClassLookup(
 	at pages.BasePage.&lt;init&gt;(BasePage.java:18)
 	at pages.MainWelcomePage.&lt;init&gt;(MainWelcomePage.java:11)
 	at base.BrowserStackBase.setUp(BrowserStackBase.java:37)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
 Caused by: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy6.proxyClassLookup()
 	at java.base/java.lang.Class.getMethod(Class.java:2227)
 	at io.appium.java_client.pagefactory.bys.builder.AppiumByBuilder.prepareAnnotationMethods(AppiumByBuilder.java:83)
-	... 50 more
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	... 28 more
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

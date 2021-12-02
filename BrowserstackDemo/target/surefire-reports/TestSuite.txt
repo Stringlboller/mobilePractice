@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 53.82 s <<< FAILURE! - in TestSuite
+tests.SignUpTest.setUp  Time elapsed: 53.599 s  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy6.proxyClassLookup()
+Caused by: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy6.proxyClassLookup()
+
